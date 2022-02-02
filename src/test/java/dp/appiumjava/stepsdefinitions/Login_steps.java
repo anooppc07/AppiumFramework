@@ -4,6 +4,7 @@ import cucumber.api.java.en.*;
 import dp.appiumjava.screens.ActivityFeed_Screen;
 import dp.appiumjava.screens.Login_Screen;
 import dp.appiumjava.screens.SchoolSelection_Screen;
+import org.junit.Assert;
 
 
 public class Login_steps {
@@ -33,7 +34,7 @@ public class Login_steps {
 	public void schoolSelection() throws Throwable {
 		schoolScreen=new SchoolSelection_Screen();
 		System.out.println("**************");
-		System.out.println(schoolScreen.getListofSchools().size());
+		Assert.assertEquals(schoolScreen.getListofSchools().size(),3);
 		schoolScreen.selectSchool();
 		Thread.sleep(10000);
 	}
