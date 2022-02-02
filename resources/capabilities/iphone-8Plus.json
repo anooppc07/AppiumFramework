@@ -1,0 +1,10 @@
+{
+  "udid": "",
+  "platformVersion": "15.0",
+  "deviceName": "iPhone 8",
+  "platformName": "iOS",
+  "noReset": false,
+  "autoAcceptAlerts": true,
+  "newCommandTimeout": 300,
+  "app": "storage:filename=Beanstalk-Develop-20220131.6.ipa"
+}

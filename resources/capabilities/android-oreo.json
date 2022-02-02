@@ -1,0 +1,10 @@
+{
+  "platformName": "Android",
+  "appium:deviceName": "Google Pixel 3 XL GoogleAPI Emulator",
+  "appium:platformVersion": "11.0",
+  "appium:orientation": "PORTRAIT",
+  "appium:app": "storage:filename=Beanstalk-qa-20220131.27.apk",
+  "appium:noReset": "false",
+  "appium:newCommandTimeout": "240"
+
+}
