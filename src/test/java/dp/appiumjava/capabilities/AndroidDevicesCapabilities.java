@@ -20,8 +20,8 @@ public enum AndroidDevicesCapabilities {
     public DesiredCapabilities getAndroidCapabilitiesFromPlataform() {
         DesiredCapabilities androidCapabilities = Load_capabilities.pathToDesiredCapabilitites(this.path);
         MutableCapabilities sauceOptions = new MutableCapabilities();
-        sauceOptions.setCapability("username", "anoop.pc");
-        sauceOptions.setCapability("accessKey", "a0063fb8-25bf-4680-bf54-3b6dab9086d2");
+        sauceOptions.setCapability("username", "");
+        sauceOptions.setCapability("accessKey", "");
         androidCapabilities.setCapability("sauce:options", sauceOptions);
         //androidCapabilities.setCapability("app", new File("resources/apps/app-debug.apk").getAbsolutePath());
         return androidCapabilities;

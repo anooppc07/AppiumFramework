@@ -19,8 +19,8 @@ public enum IOSDevicesCapabilities {
     public DesiredCapabilities getIOSCapabilitiesFromPlataform() {
         DesiredCapabilities iosCapabilities =  Load_capabilities.pathToDesiredCapabilitites(this.path);
         MutableCapabilities sauceOptions = new MutableCapabilities();
-        sauceOptions.setCapability("username", "anoop.pc");
-        sauceOptions.setCapability("accessKey", "a0063fb8-25bf-4680-bf54-3b6dab9086d2");
+        sauceOptions.setCapability("username", "");
+        sauceOptions.setCapability("accessKey", "");
         iosCapabilities.setCapability("sauce:options", sauceOptions);
 //         iosCapabilities.setCapability("app", new File("resources/apps/TestApp.app").getAbsolutePath());
         return iosCapabilities;

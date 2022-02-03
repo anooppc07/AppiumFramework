@@ -22,7 +22,7 @@ public class ActivityFeed_Screen extends BaseScreen {
 
     public void verifyImageLoad(){
         Eyes eyes = new Eyes();
-        eyes.setApiKey("Uo9x28agunjUbAae4VBoyoAPvF93t4nW8Kn8T4J8WZY110");
+        eyes.setApiKey("");
 //        eyes.setForceFullPageScreenshot(true);
         // Start the test.
         eyes.open(DriverFactoryManager.
